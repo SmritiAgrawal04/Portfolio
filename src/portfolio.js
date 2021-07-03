@@ -13,7 +13,7 @@ const greeting = {
   subTitle:
     "A passionate person who often succeeds in working on end-to-end products to produce effect by creating sustainable and functional social and technological structures.",
   resumeLink:
-    "https://drive.google.com/file/d/1NEA-VXNDLlDodVmN2B_AmEqyDUwh8S31/view?usp=sharing",
+    "https://drive.google.com/file/d/1ea8YdO3cWQ5y8KIN7pciTpW6mgYQSpOX/view?usp=sharing",
   portfolio_repository: "https://github.com/SmritiAgrawal04",
 };
 
@@ -105,6 +105,13 @@ const skills = {
             }, 
         },
         {
+            skillName: "Jenkins",
+            fontAwesomeClassname: "cib:jenkins",
+            style: {
+              color: "#D00000",
+            },
+        },
+        {
         skillName: "BASH",
             fontAwesomeClassname: "logos:bash",
             style: {
@@ -132,13 +139,7 @@ const skills = {
               color: "#1572B6"
             }, 
         },
-        // {
-        //   skillName: "Yarn",
-        //   fontAwesomeClassname: "simple-icons:yarn",
-        //   style: {
-        //     color: "#2C8EBB",
-        //   },
-        // },
+      
         // {
         //   skillName: "Gatsby",
         //   fontAwesomeClassname: "simple-icons:gatsby",
@@ -372,10 +373,10 @@ const degrees = {
   degrees: [
     {
       title: "International Institute of Information Technology, Hyderabad",
-      subtitle: "M.Tech. in Computer Science & Engineering - 8.50cgpa",
+      subtitle: "M.Tech. in Computer Science & Engineering - 8.38cgpa",
       logo_path: "iiith.png",
       alt_name: "IIIT Hyderabad",
-      duration: "2019 - Present",
+      duration: "2019 - 2021",
       descriptions: [
         "⚡ I have studied advanced software engineering subjects like Advanced Problem Solving, Internals of Application Servers, Advanced OS, Statistical Methods in AI, Information Retrieval & Extraction, Data Analytics etc.",
         "⚡ Apart from this, I have worked on tools like Apache Kafka, Docker Products, Django, Flask, MS PowerApps etc.",
@@ -520,11 +521,11 @@ const experience = {
       title: "Work",
       experiences: [
         {
-          title: "Upcoming Software Developer Engineer",
-          company: "Vedantu",
+          title: "Upcoming Member of Technical Staff",
+          company: "Oracle",
           company_url: "https://www.vedantu.com/",
-          logo_path: "vedantu.png",
-          duration: "Aug 2020",
+          logo_path: "oracle.png",
+          duration: "July 2021",
           location: "Bengaluru, Karnataka",
           description:
             "",
@@ -557,6 +558,29 @@ const experience = {
     {
       title: "Internships",
       experiences: [
+        {
+          title: "Summer Intern",
+          company: "Silicon Labs",
+          company_url: "https://www.silabs.com/",
+          logo_path: "silabs.png",
+          duration: "April 2021 - July 2021",
+          location: "Work From Home",
+          description:
+            "(1) Emode Project aimed to develop sample application using the UC framework to reduce code complexities and reduce user effort to allow automated run on latest IDE version. \
+             (2) Docker Implementation & CI/CD pipeline setup using Jenkins for Bootloader Tests to isolate the test environment and automate testing and deploying by 100%",
+          color: "#fc1f20",
+        },
+        {
+          title: "Open Source Contributor",
+          company: "GirlScript Summer of Code",
+          company_url: "https://gssoc.girlscript.tech/",
+          logo_path: "gssoc.png",
+          duration: "March 2021 - May 2021",
+          location: "Work From Home",
+          description:
+            "Rotten Scripts contain amazing scripts in various languages. Wrote scripts to encrypt/decrypt files using RSA, find all environment variables in codebase and built a Python Camscanner that convert images into scanned images. Find the github repo and my contribution on- https://github.com/HarshCasper/Rotten-Scripts",
+          color: "#fc1f20",
+        },
         {
           title: "Teaching Assistant",
           company: "IIIT Hyderabad",
@@ -650,7 +674,7 @@ const contactPageData = {
   addressSection: {
     title: "Address",
     subtitle:
-      "136- Ansal Pradhan Enclave, Near Dana Pani Restaurant, E-8 Bawadia Kalan, Dist.-Bhopal, Madhya Pradesh - 462038",
+      "136- Ansal Pradhan Enclave, Near Dana Pani Restaurant, E-8 Bawadia Kalan, Dist.-Bhopal, Madhya Pradesh - 462039",
     avatar_image_path: "address_image.svg",
     location_map_link: "https://goo.gl/maps/QteE3ArgTNDraGA67",
   },
