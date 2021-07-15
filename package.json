@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "SmritiPortfolio",
-  "homepage": "https:/SmritiAgrawal04.github.io",
+  "homepage": ".",
   "version": "0.1.0",
   "scripts": {
     "build": "react-scripts build",
